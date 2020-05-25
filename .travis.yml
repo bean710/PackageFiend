@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+        - 12.x
+before_install:
+        sudo npm install -g n
+        sudo n 12.16.2
+        sudo npm install
+        sudo npm start
