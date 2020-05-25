@@ -1,0 +1,20 @@
+{
+  "name": "packagefiend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bean710/PackageFiend.git"
+  },
+  "author": "Ben Keener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bean710/PackageFiend/issues"
+  },
+  "homepage": "https://github.com/bean710/PackageFiend#readme"
+}
