@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bean710/PackageFiend/issues"
   },
-  "homepage": "https://github.com/bean710/PackageFiend#readme"
+  "homepage": "https://github.com/bean710/PackageFiend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
