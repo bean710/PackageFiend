@@ -1,8 +1,13 @@
 language: node_js
 node_js:
-        - 12.x
-before_install:
-        sudo npm install -g n
-        sudo n 12.16.2
-        sudo npm install
-        sudo npm start
+        - 12.16.2
+deploy:
+        provider: elasticbeanstalk
+        access_key_id:
+                secure: "$ACCESSKEYID"
+        secret_access_key:
+                secure: "SECRETACCESSKEY"
+        region: "us-east-1"
+        app: "package-fiend"
+        env: "Pkgfnd-env"
+        bucket_name: "elasticbeanstalk-us-east-1-236301425402"
