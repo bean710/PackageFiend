@@ -11,3 +11,4 @@ deploy:
         app: "package-fiend"
         env: "Pkgfnd-env"
         bucket_name: "elasticbeanstalk-us-east-1-236301425402"
+script: 'true'
