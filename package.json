@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bean710/PackageFiend#readme",
   "dependencies": {
+    "aws-sdk": "^2.683.0",
     "express": "^4.17.1"
   }
 }
